@@ -1,0 +1,64 @@
+/*Meus projetos*/
+
+section#meus-projetos{
+    background-color: #000000;
+    padding: 100px 4%;
+  }
+  
+  .txt-projetos, .projetos-container{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    width: 50%;
+  }
+  
+  .txt-projetos{
+    color: aliceblue;
+    position: sticky;
+    top: 30%;
+    left: 0;
+  }
+  
+  .txt-projetos h2{
+    color: #ffff;
+    font-family: poppins;
+    font-size: 75px;
+    font-weight: 800
+  }
+  
+  .txt-projetos h2 span{
+    color: #ff4949;
+    display: block;
+    line-height: 25px;
+  }
+  
+  .txt-projetos p{
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 60px 0 40px;
+  }
+  
+  .projetos-container{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .projetos-content{
+    margin-bottom: 50px;
+  }
+  
+  .projetos-box{
+    width: 320px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 50px 0 50px 20px;
+  }
+  
+  .projetos-content h3{
+    margin-top: 15px;
+    font-family: poppins;
+    font-weight: 300;
+  }

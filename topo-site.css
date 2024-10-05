@@ -1,0 +1,59 @@
+/*estilo topo do site*/
+
+section.topo-site{
+    background-color: #020202;
+    padding: 100px 0;
+}
+
+.txt-topo, .img-topo{
+    display: inline-block;
+    margin-right: -4px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.img-topo img{
+    width: 430px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.txt-topo h4{
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.txt-topo h1{
+    color: #ff4949;
+    font-family: poppins;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.txt-topo h1 span{
+    color: #f61d1d;
+}
+
+.txt-topo p{
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.txt-topo a button{
+    background-color: transparent;
+    color: #ff4949;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 100%;
+    border: 2px solid #ff4949;
+}
+

@@ -1,0 +1,50 @@
+/*HAbilidades box*/
+
+section#habilidades{
+    padding: 100px 4%;
+  }
+  
+  section#habilidades .flex{
+    gap: 60px;
+  }
+  
+  section#habilidades h2{
+    font-family: poppins;
+    font-size: 75px;
+    font-weight: 800;
+    color: #ff4949;
+    text-align: center;
+  }
+  
+  #habilidades .habilidades-box{
+    padding: 40px;
+    width: 500px;
+    height: 300px;
+    margin-top: 45px;
+    border-radius: 50px 0 50px 20px;
+    transition: .5s;
+  }
+  
+  #habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #f61d1d;
+    border: 2px solid #ff4949;
+    
+  } 
+  
+  #habilidades .habilidades-box i{
+    font-size: 50px;
+    color: #ff4949;
+  }
+  
+  #habilidades .habilidades-box h3{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 800;
+    margin: 15px 0;
+  }
+  
+  #habilidades .habilidades-box p{
+    font-family: poppins;
+  }
+  

@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="./contato.css">
     <link rel="stylesheet" href="./rodape.css">
 
+    <!--Responsivo-->
+    <link rel="stylesheet" href="./responsivo.css">
+
     <title>Matheus Paulo</title>
 </head>
 
@@ -47,6 +50,10 @@
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
+
+            <div class="menu-mob">
+                <i class="bi bi-list"></i>
+            </div>
 
         </div>
 
@@ -113,35 +120,35 @@
                 <article class="projetos-container">
                     <div class="projetos-content">
                         <div class="projetos-box">
-
+                            <img src="./pj1.png" alt="">
                         </div>
                         <h3>Projeto 1</h3>
                     </div>
 
                     <div class="projetos-content">
                         <div class="projetos-box">
-
+                            <img src="./pj4.png" alt="">
                         </div>
                         <h3>Projeto 2</h3>
                     </div>
 
                     <div class="projetos-content">
                         <div class="projetos-box">
-
+                            <img src="./pj3.png" alt="">
                         </div>
                         <h3>Projeto 3</h3>
                     </div>
 
                     <div class="projetos-content">
-                        <div class="projetos-box">
-
+                        <div class="projetos-box1">
+                            <img src="./pj2.png" alt="">
                         </div>
                         <h3>Projeto 4</h3>
                     </div>
 
                     <div class="projetos-content">
-                        <div class="projetos-box">
-
+                        <div class="projetos-box1">
+                            <img src="./pj5.png" alt="">
                         </div>
                         <h3>Projeto 5</h3>
                     </div>
@@ -181,26 +188,26 @@
 
 
                 <article class="form">
-                    <form action="">
+                    <form action="envia.php" method="post">
                         
                         <div>
                             <label for="">Seu Nome completo:</label>
-                            <input type="text" name="" id="">
+                            <input type="text" name="nome" id="">
                         </div>
 
                         <div>
                             <label for="">Seu E-mail:</label>
-                            <input type="email" name="" id="">
+                            <input type="email" name="email" id="">
                         </div>
 
                         <div>
                             <label for="">Telefone/WhatsApp:</label>
-                            <input type="tel" name="" id="tel">
+                            <input type="tel" name="telefone" id="tel">
                         </div>
 
                         <div>
                             <label for="msg">Mensagem:</label>
-                            <textarea name="" id="msg"></textarea>
+                            <textarea name="msg" id="msg"></textarea>
                         </div>
 
                         <div class="btn-enviar">

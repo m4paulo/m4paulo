@@ -93,4 +93,21 @@ header{
     transition: transform .2s;
 }
 
+.menu-mob{
+    display: none;
+    width: 50%;
+    margin-right: -4px;
+    color: aliceblue;
+    text-align: right;
+    position: relative;
+    height: 100%;
+}
+
+.menu-mob i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 26px;
+}
 

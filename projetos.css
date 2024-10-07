@@ -56,6 +56,16 @@ section#meus-projetos{
     margin: 0 auto;
     border-radius: 50px 0 50px 20px;
   }
+
+  .projetos-box img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .projetos-box1 img{
+    width: 200px;
+    height: 100px;
+  }
   
   .projetos-content h3{
     margin-top: 15px;
